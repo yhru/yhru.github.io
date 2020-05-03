@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+.contenu {
+  background-image: url(./images/papyrus.png);
+  font-family: "Open Sans", sans-serif;
+  padding: 5%;
+  font-size: 18px;
+  margin: 0;
+  color: #444;
+  background-attachment: fixed;
+  text-align: center;
+  float: center;
+}
+
+h1, h2, h3 {
+  font-family: "Merriweather", serif;
+  font-size: 32px;
+}
+
+.maNavBar{
+  padding: 0%;
+  position: fixed, top;
+  color: #444;  
+} 
+
+.maNavBarFooter{
+  text-align: center;
+  margin: auto;
+}
+
+body{
+  background-image: url(./images/papyrus.png);
+}
+
+hr {
+  border: none;
+  border-top: 3px double #333;
+  color: #333;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+}
+
+.radio{
+  display: inline-flex;
+}
+
+.form-group {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.form-group input{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+ul{
+  display: inline;
+}
+
+p{
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+#stageFormation{
+  margin-left: 33%;
+  margin-right: 33%;
+}
+
+#competences{
+  text-align: center;
+  margin: auto;
+  font-size: 3.33em;
+}
+
+#alignRight{
+  text-align: right;
+}
+
+#contact{
+  text-align: center;
+  font-size: 1.5em;
+  margin: auto;
+}
+#right{
+  text-align: right;
+  justify-content: right;
+  float: right !;
+  align-content: right;
+  box-align: right;
+  place-content: right;
+  align-items: right;
+  margin-right: 0;
+}
+
+#navbarNavDropdown{
+  text-align: right;
+  justify-content: right;
+  float: right !;
+  align-content: right;
+  box-align: right;
+  place-content: right;
+  align-items: right;
+  margin-right: 0;
+}
+
+.collapse navbar-collapse{
+  text-align: right;
+  justify-content: right;
+  float: right;
+  align-content: right;
+  box-align: right;
+  place-content: right;
+  align-items: right;
+}
+
+a:active, a:hover{
+  text-decoration: none;
+}
+
+.navbarD {
+  overflow: hidden;
+  background-color: #333;
+}
+
+#pdc{
+  text-align: center;
+  margin: auto;;
+}
+
+#boutonPDC{
+  margin: 20px;
+}
+
+.modal-header{
+  background-color: none;
+}
+
