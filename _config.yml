@@ -18,21 +18,32 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: Maxim Joseau - Software Engineer
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  I'm Maxim Joseau, a Ruby on Rails developer graduated from computer engineering school currently working as a Backend developer for Ouidou.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+permalink: /:title
+
+author:
+  name: Maxim Joseau
+  email: "maxim.joseau@gmail.com"
+  github_username: yhru
+  bio: "Passionate Ruby on Rails developer with a Master's degree in Computer Engineering."
+
+# Social profiles (optional)
+github_username: yhru
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+
+minima:
+  skin: auto
+
+google_analytics: UA-NNNNNNNN-N
+show_excerpts: false
 
 # Exclude from processing.
 # The following items will not be processed, by default.
