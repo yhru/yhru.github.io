@@ -38,6 +38,7 @@ github_username: yhru
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 minima:
   skin: auto
@@ -52,20 +53,17 @@ show_excerpts: false
 logo: "logo.png"
 subtitle: "Software Engineering and Development"
 
-plugins:
-  - jekyll-remote-theme
-
 remote_theme: jekyll/minima
 
 # Exclude from processing.
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
