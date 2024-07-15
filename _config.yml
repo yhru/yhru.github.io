@@ -52,6 +52,11 @@ show_excerpts: false
 logo: "logo.png"
 subtitle: "Software Engineering and Development"
 
+plugins:
+  - jekyll-remote-theme
+
+remote_theme: jekyll/minima
+
 # Exclude from processing.
 # exclude:
 #   - .sass-cache/
