@@ -1,0 +1,15 @@
+<h2 id="skills">Skills 👨‍💻 ⚙️</h2>
+
+### Hard Skills
+<ul>
+{% for category, list in site.data.skills.hard_skills %}
+  <li><strong>{{ category | capitalize }}:</strong> {{ list | join: ', ' }}</li>
+{% endfor %}
+</ul>
+
+### Soft Skills
+<ul>
+{% for skill in site.data.skills.soft_skills %}
+  <li>{{ skill }}</li>
+{% endfor %}
+</ul>

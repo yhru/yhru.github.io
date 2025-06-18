@@ -1,0 +1,12 @@
+<h2 id="projects">Personal Projects 🛠️</h2>
+<ol>
+{% for project in site.data.projects %}
+  <li>
+    <strong>{{ project.name }}</strong>
+    <ul>
+      <li><strong>Technologies:</strong> {{ project.technologies }}</li>
+      <li><strong>Description:</strong> {{ project.description }}</li>
+    </ul>
+  </li>
+{% endfor %}
+</ol>

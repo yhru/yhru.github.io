@@ -1,0 +1,18 @@
+<h2 id="experiences">Professional Experiences 💼</h2>
+<ol>
+{% for exp in site.data.experiences %}
+  <li>
+    <strong>{{ exp.company }}</strong> - {{ exp.role }}
+    <ul>
+      <li><strong>Period:</strong> {{ exp.period }}</li>
+      <li><strong>Responsibilities:</strong>
+        <ul>
+          {% for resp in exp.responsibilities %}
+            <li>{{ resp }}</li>
+          {% endfor %}
+        </ul>
+      </li>
+    </ul>
+  </li>
+{% endfor %}
+</ol>
