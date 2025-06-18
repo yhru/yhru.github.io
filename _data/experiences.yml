@@ -1,0 +1,31 @@
+- company: Ouidou
+  role: Backend Ruby on Rails Developer
+  period: "October 2023 - Present"
+  responsibilities:
+    - Spearheaded the development of robust REST and MountAPI APIs
+    - Implemented comprehensive test suites to ensure high code quality
+    - Contributed to the architectural design and system planning
+- company: Tymate
+  role: Backend Ruby on Rails Developer
+  period: "September 2021 - September 2023"
+  responsibilities:
+    - Engineered scalable GraphQL and REST APIs
+    - Developed sophisticated Back Office solutions in Rails for a diverse range of clients, including associations, startups, SMEs, and large enterprises
+- company: Boulanger
+  role: SAP Developer Internship
+  period: "November 2020 - 2021"
+  responsibilities:
+    - Developed and maintened projects within the SAP environment
+    - Led the creation, SEO optimization, and maintenance of high-traffic websites:
+      - [All You Need](https://allyouneed-rh.fr)
+      - [e-Darwin](https://e-darwin.fr)
+- company: All You Need
+  role: Developer & Project Manager
+  period: "January 2020 - March 2020"
+  responsibilities:
+    - Played a pivotal role in the design and development of this website
+- company: CITC
+  role: Developer Internship
+  period: "May 2019 - June 2019"
+  responsibilities:
+    - Developed and launched a fully functional website: [iotcluster.fr](https://iotcluster.fr)

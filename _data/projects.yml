@@ -1,0 +1,12 @@
+- name: Book Club
+  technologies: "Ruby on Rails - GraphQL - PostgreSQL"
+  description: "Developed a dynamic book club platform, enabling users to share and discuss books seamlessly."
+- name: Media Library with Image Recognition
+  technologies: "SpringBoot"
+  description: "Created an intelligent media library system incorporating advanced image recognition features for enhanced user experience."
+- name: Lille Lettrée, Library Project
+  technologies: "PHP"
+  description: "Designed and implemented a comprehensive library management system, facilitating efficient book tracking and management."
+- name: Mobile App for QR Code Scanning
+  technologies: "React - Firebase"
+  description: "Built a mobile application that utilizes QR code scanning for quick and easy information retrieval."

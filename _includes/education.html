@@ -1,0 +1,14 @@
+<h2 id="education">Education 📚</h2>
+<ol>
+{% for edu in site.data.education %}
+  <li>
+    <strong>{{ edu.institution }} - {{ edu.period }}</strong>
+    <ul>
+      <li><strong>Degree:</strong> {{ edu.degree }}</li>
+      <li><strong>Level:</strong> {{ edu.level }}</li>
+      {% if edu.highlights %}<li>{{ edu.highlights }}</li>{% endif %}
+      {% if edu.details %}<li>{{ edu.details }}</li>{% endif %}
+    </ul>
+  </li>
+{% endfor %}
+</ol>

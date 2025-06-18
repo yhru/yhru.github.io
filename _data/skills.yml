@@ -1,0 +1,32 @@
+hard_skills:
+  frameworks:
+    - Ruby on Rails
+    - SpringBoot
+    - Angular
+    - React
+  tools:
+    - Git (GitHub, GitLab)
+    - Jira
+    - RSpec (Testing)
+    - Tailwind
+    - Poker Planning
+    - Code Review
+  languages:
+    - Ruby
+    - Java
+    - JavaScript
+    - SQL / NoSQL
+    - Shell
+  apis:
+    - REST
+    - GraphQL
+  other:
+    - Jekyll
+    - Bootstrap
+    - Méthode Agile
+    - SCRUM
+soft_skills:
+  - Communication
+  - TeamPlay
+  - Adaptabilité
+  - Polyvalence
