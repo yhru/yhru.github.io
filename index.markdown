@@ -1,20 +1,20 @@
 ---
 layout: home
-title: "Presentation"
+title: "Presentation 🖋️" 
 ---
 
 <div class="header">
-  <p>With a Master's degree in Computer Engineering, I am a passionate developer specialized in designing and maintaining robust software solutions, with particular expertise in Ruby on Rails. Through my experience in version upgrades and incident resolution, I have developed unique skills on high-impact platforms like <strong>Démarches Simplifiées</strong>. My work has also led me to decompose monolithic applications, design APIs, and contribute to complex projects in sectors such as finance, legal, and student guidance.</p>
+  <p>Passionate about technology and software development, my name is Maxim Joseau. I am a Ruby on Rails developer with a Master's degree (bac +5) in Computer Engineering, currently thriving as a Backend Developer for <a href="https://ouidou.fr/" target="_blank">Ouidou</a>.</p>
 </div>
 
-## Information
+## Informations 📓
 
 | [![Email](https://img.icons8.com/ios-glyphs/30/000000/email.png)](mailto:maxim.joseau@gmail.com) | [![GitHub](https://img.icons8.com/ios-glyphs/30/000000/github.png)](https://github.com/yhru) | **Experience** | **Location**    |
 |------------------------------|----------------------------------|-------------------|-----------------|
 | maxim.joseau@gmail.com       | [github.com/yhru](https://github.com/yhru) | 4 years              | Lille - Paris   |
 
 
-## Skills
+## Skills 👨‍💻 ⚙️
 
 ### Technical Skills
 
@@ -34,43 +34,25 @@ title: "Presentation"
       "GraphQL"
     ]
   },
-  "Architecture & Design": [
-    "Design Patterns",
-    "Code Quality",
-    "Monolithic Architecture",
-    "Service-Oriented Architecture"
-  ],
   "Tools & Methodologies": {
     "Version Control": [
-      "Git (GitHub, GitLab)"
-    ],
-    "Agile Methods": [
+      "Git (GitHub, GitLab)",
+      "GitLab CI/Actions",
       "Scrum",
-      "Kanban"
-    ],
-    "Project Management": [
-      "Jira"
+      "Kanban",
+      "Jira",
     ],
     "Testing & Quality": [
       "RSpec (Unit, Integration, End-to-End)",
       "Code Review",
-      "Linting"
-    ]
-  },
-  "DevOps": {
-    "CI/CD": [
-      "Docker",
-      "GitLab CI",
-      "GitHub Actions"
-    ],
-    "Monitoring": [
+      "Linting",
       "Sentry",
-      "CVE Monitoring"
     ]
   },
   "Frontend": [
     "Bootstrap",
-    "Tailwind"
+    "Tailwind",
+    "Jekyll"
   ]
 }
 ```
@@ -85,14 +67,6 @@ title: "Presentation"
   "Technical Documentation",
   "Client Relations"
 ]
-```
-
-### Languages
-```json
-{
-  "French": "Native",
-  "English": "Fluent in writing, Intermediate in speaking"
-}
 ```
 
 ## Professional Experience
@@ -199,19 +173,7 @@ title: "Presentation"
 
 ---
 
-### **7. Tymate - Backend Ruby on Rails Developer**
-**Period:** September 2021 - September 2023 (2 years)
-
-**Responsibilities:**
-- Developed GraphQL and REST APIs and back-office solutions in Ruby on Rails for various clients (associations, startups, SMEs)
-- Engineered scalable solutions for diverse business needs
-
-**Environment:** Ruby on Rails, PostgreSQL, RSpec, GraphQL, REST
-> &nbsp;
-
----
-
-### **8. Boulanger - SAP Developer Internship**
+### **7. Boulanger - SAP Developer Internship**
 **Period:** November 2020 - 2021
 
 **Responsibilities:**
@@ -224,7 +186,7 @@ title: "Presentation"
 
 ---
 
-### **9. All You Need - Developer & Project Manager**
+### **8. All You Need - Developer & Project Manager**
 **Period:** January 2020 - March 2020
 
 **Responsibilities:**
@@ -234,7 +196,7 @@ title: "Presentation"
 
 ---
 
-### **10. CITC - Developer Internship**
+### **9. CITC - Developer Internship**
 **Period:** May 2019 - June 2019
 
 **Responsibilities:**
@@ -260,19 +222,36 @@ title: "Presentation"
 
 ---
 
-## Industry Sectors
+## Personal Projects 🛠️
 
-```
-Legal / Non-profit Support / Virtual Accounting / Process Virtualization / Public Administration
-```
+1. **Book Club**  
+    - **Technologies:** Ruby on Rails - GraphQL - PostgreSQL
+    - **Description:** Developed a dynamic book club platform, enabling users to share and discuss books seamlessly.
+    > &nbsp;
 
-## Interests
+2. **Media Library with Image Recognition**  
+    - **Technologies:** SpringBoot
+    - **Description:** Created an intelligent media library system incorporating advanced image recognition features for enhanced user experience.
+    > &nbsp;
 
+3. **Lille Lettrée, Library Project**  
+    - **Technologies:** PHP
+    - **Description:** Designed and implemented a comprehensive library management system, facilitating efficient book tracking and management.
+    > &nbsp;
+
+4. **Mobile App for QR Code Scanning**  
+    - **Technologies:** React - Firebase
+    - **Description:** Built a mobile application that utilizes QR code scanning for quick and easy information retrieval.
+    > &nbsp;
+
+
+
+## Interests ♟️
 ```
 - Chess
 - Typing
-- Web Development
-- Skateboarding
+- Web Dev
+- Skate
 - Climbing
 - Badminton
 ```
