@@ -4,14 +4,14 @@ title: "Presentation 🖋️"
 ---
 
 <div class="header">
-  <p>Passionate about technology and software development, my name is Maxim Joseau. I am a Ruby on Rails developer with a Master's degree (bac +5) in Computer Engineering, currently thriving as a Backend Developer for <a href="https://ouidou.fr/" target="_blank">Ouidou</a>.</p>
+  <p>Passionate about technology and software development, my name is Maxim Joseau. I am a Full-Stack developer (Ruby on Rails, Java / Spring Boot, React) with a Master's degree (bac +5) in Computer Engineering, currently working for <a href="https://ouidou.fr/" target="_blank">Ouidou</a>.</p>
 </div>
 
 ## Informations 📓
 
 | [![Email](https://img.icons8.com/ios-glyphs/30/000000/email.png)](mailto:maxim.joseau@gmail.com) | [![GitHub](https://img.icons8.com/ios-glyphs/30/000000/github.png)](https://github.com/yhru) | **Experience** | **Location**    |
 |------------------------------|----------------------------------|-------------------|-----------------|
-| maxim.joseau@gmail.com       | [github.com/yhru](https://github.com/yhru) | 4 years              | Lille - Paris   |
+| maxim.joseau@gmail.com       | [github.com/yhru](https://github.com/yhru) | 5+ years             | Lille - Paris   |
 
 
 ## Skills 👨‍💻 ⚙️
@@ -23,11 +23,19 @@ title: "Presentation 🖋️"
   "Backend Technologies": {
     "Languages & Frameworks": [
       "Ruby",
-      "Ruby on Rails"
+      "Ruby on Rails",
+      "Java",
+      "Spring Boot"
     ],
     "Databases": [
       "PostgreSQL",
-      "MySQL"
+      "MySQL",
+      "Azure SQL Database",
+      "Redis",
+      "MongoDB"
+    ],
+    "Cloud": [
+      "Azure (Blob Storage, Document Intelligence, Entra ID)"
     ],
     "APIs": [
       "REST",
@@ -38,18 +46,32 @@ title: "Presentation 🖋️"
     "Version Control": [
       "Git (GitHub, GitLab)",
       "GitLab CI/Actions",
+      "Docker",
+      "Kubernetes"
+    ],
+    "Methodologies": [
       "Scrum",
       "Kanban",
-      "Jira",
+      "BMAD",
+      "AI-assisted development (Claude Code)",
+      "Jira"
     ],
     "Testing & Quality": [
       "RSpec (Unit, Integration, End-to-End)",
+      "Capybara",
+      "TDD (JUnit, Testcontainers, Vitest)",
       "Code Review",
       "Linting",
-      "Sentry",
+      "Sonar",
+      "Sentry"
     ]
   },
-  "Frontend": [
+  "Frontend & Mobile": [
+    "React",
+    "TypeScript",
+    "Vue.js",
+    "Flutter",
+    "Hotwire",
     "Bootstrap",
     "Tailwind",
     "Jekyll"
@@ -71,8 +93,44 @@ title: "Presentation 🖋️"
 
 ## Professional Experience
 
-### **1. Adullact (via Ouidou) - Ruby on Rails Developer**
-**Period:** 2025 - Present
+### **1. LDC – Marie (via Ouidou) - Ruby on Rails / Flutter Tech Lead**
+**Period:** September 2026 - October 2026
+
+**Project:** Compliance upgrade of Frigo'Co, the connected fridge solution of the Marie brand (LDC group): a Rails API, a Vue.js back-office and a Flutter iOS/Android mobile app. The goal was to meet the new Google Play requirement (target Android 16 / API 36) and replace the discontinued Firebase Dynamic Links. Fixed-price project delivered in a short sprint with a team of 3 developers.
+
+**Key Achievements:**
+- Technical lead of the sprint: scoping, split into 3 work packages (API 36 upgrade, native deep links, CI and publishing), story assignment and follow-up of client prerequisites
+- Flutter upgrade 2.8 → 3.32 → 3.44 and Android API 36 target (Gradle, AGP, Kotlin, NDK, edge-to-edge display)
+- Set up a lightweight BMAD method (target architecture note and versioned stories in the repo) to parallelize AI-assisted development (Claude Code)
+- Production releases of the API and back-office, App Store and Play Store submission with staged rollout
+- Documentation writing (developer onboarding, architecture, client prerequisites) and client communication
+
+**Environment:** Ruby, Flutter, PostgreSQL, Redis, Vue.js, GitLab, Sentry
+> &nbsp;
+
+---
+
+### **2. PACTP (via Ouidou) - Full-Stack Java / React Developer**
+**Period:** May 2025 - October 2026
+
+**Project:** Complete overhaul of PACTP's information system to manage the show contribution (CVE) with member theaters. The platform includes a member portal and an admin back-office: show declarations, payouts, invoices and balances, journals, rate and notification settings. Batch jobs handle accounting synchronization, purging and data migration. The project followed the BMAD method (analysis → planning → architecture → stories) with AI-assisted development (Claude Code).
+
+**Key Achievements:**
+- Full-stack development of user stories, from the Spring Boot back-end to the React front-end, using TDD (unit tests and Testcontainers integration tests)
+- Accounting integration with the Pennylane API: journal entries, per-theater allocation accounts, live balances, replay of failed synchronizations
+- Automatic reading of slips via OCR (Azure Document Intelligence) and storage of supporting documents on Azure Blob Storage
+- Role-based authentication and authorization (Spring Security, JWT, OAuth2 / Microsoft Entra ID), emails sent through Microsoft Graph
+- Data migration from the legacy portal: migration scripts (FEC, dumps), consistency checks on caps and balances, staging acceptance testing, cutover runbook
+- Production go-live: GitLab CI/CD, Docker images (Jib), Kubernetes deployment on staging and docker-compose on a VM in production, secrets moved to environment variables
+- Code reviews (DRY, KISS, SOLID, YAGNI), sprint follow-up and post-acceptance fixes with the client
+
+**Environment:** Java, Spring Boot, PostgreSQL, React, TypeScript, Vite, Tailwind CSS, Vitest, Azure, GraphQL, Docker, GitLab, Claude
+> &nbsp;
+
+---
+
+### **3. Adullact (via Ouidou) - Ruby on Rails Developer**
+**Period:** 2025
 
 **Project:** Version upgrade management and incident resolution on Démarches Simplifiées (Ruby on Rails monolithic application) and its fork mes-démarches. Development of new features and bug fixes on these platforms. Technical and business onboarding.
 
@@ -90,8 +148,8 @@ title: "Presentation 🖋️"
 
 ---
 
-### **2. IDT (Mes-Démarches via Ouidou) - Ruby on Rails Developer**
-**Period:** 2025 - Present
+### **4. IDT (Mes-Démarches via Ouidou) - Ruby on Rails Developer**
+**Period:** 2025
 
 **Project:** Polynesian fork of the Démarches Simplifiées project. Development of new features and bug fixes, as well as version upgrades.
 
@@ -109,7 +167,7 @@ title: "Presentation 🖋️"
 
 ---
 
-### **3. L'Etudiant (Study Advisor via Ouidou) - Ruby on Rails Developer**
+### **5. L'Etudiant (Study Advisor via Ouidou) - Ruby on Rails Developer**
 **Period:** 2024
 
 **Project:** Migration of the Study Advisor monolithic Ruby on Rails application to a service-oriented architecture, divided into several distinct applications (back-office, front-end, API). Development of new features for the platform.
@@ -126,7 +184,7 @@ title: "Presentation 🖋️"
 
 ---
 
-### **4. Juridic Ways (via Tymate) - Ruby on Rails Developer**
+### **6. Juridic Ways (via Tymate) - Ruby on Rails Developer**
 **Period:** 2023
 
 **Project:** Design and development of a digital platform to simplify the estate settlement process for legal professionals (notaries, lawyers).
@@ -142,7 +200,7 @@ title: "Presentation 🖋️"
 
 ---
 
-### **5. Réseau Initiative France (via Tymate) - Ruby on Rails Developer**
+### **7. Réseau Initiative France (via Tymate) - Ruby on Rails Developer**
 **Period:** 2023
 
 **Project:** Development of the Ruby on Rails API for the Réseau Initiative France mobile application, designed to help entrepreneurs launch their projects.
@@ -157,7 +215,7 @@ title: "Presentation 🖋️"
 
 ---
 
-### **6. Le Registre (via Tymate) - Ruby on Rails Developer**
+### **8. Le Registre (via Tymate) - Ruby on Rails Developer**
 **Period:** 2023
 
 **Project:** Contribution to the development and maintenance of a notarial application aimed at digitalizing document management and facilitating transactions via blockchain.
@@ -173,7 +231,7 @@ title: "Presentation 🖋️"
 
 ---
 
-### **7. Boulanger - SAP Developer Internship**
+### **9. Boulanger - SAP Developer Internship**
 **Period:** November 2020 - 2021
 
 **Responsibilities:**
@@ -186,7 +244,7 @@ title: "Presentation 🖋️"
 
 ---
 
-### **8. All You Need - Developer & Project Manager**
+### **10. All You Need - Developer & Project Manager**
 **Period:** January 2020 - March 2020
 
 **Responsibilities:**
@@ -196,7 +254,7 @@ title: "Presentation 🖋️"
 
 ---
 
-### **9. CITC - Developer Internship**
+### **11. CITC - Developer Internship**
 **Period:** May 2019 - June 2019
 
 **Responsibilities:**

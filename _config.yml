@@ -1,6 +1,6 @@
 title: Maxim Joseau - Software Engineer
 description: >- # this means to ignore newlines until "baseurl:"
-  I'm Maxim Joseau, a Ruby on Rails developer graduated from computer engineering school currently working as a Backend developer for Ouidou.
+  I'm Maxim Joseau, a Full-Stack developer (Ruby on Rails, Java / Spring Boot, React) graduated from computer engineering school, currently working for Ouidou.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /:title
@@ -9,7 +9,7 @@ author:
   name: Maxim Joseau
   email: "maxim.joseau@gmail.com"
   github_username: yhru
-  bio: "Passionate Ruby on Rails developer with a Master's degree in Computer Engineering."
+  bio: "Passionate Full-Stack developer (Ruby on Rails, Java, React) with a Master's degree in Computer Engineering."
 
 # Social profiles (optional)
 github_username: yhru
